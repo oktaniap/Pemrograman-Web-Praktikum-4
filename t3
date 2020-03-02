@@ -1,0 +1,35 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#fadein').click(function(){
+				$('.kuning').fadeIn('slow');
+			});
+			$('#fadeout').click(function(){
+				$('.kuning').fadeOut('slow');
+			});
+			$('#fadeto').click(function(){
+				$('.kuning').fadeTo('slow',0.30);
+			});
+		});
+	</script>
+	<style type="text/css">
+		.kuning{
+			width: 250px;
+			height: 200px;
+			background: yellow;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="kuning"></div>
+	<br><br>
+	<input type="button" name="" value="fade in" id="fadein">
+	&nbsp &nbsp
+	<input type="button" name="" value="fade out" id="fadeout">
+	&nbsp &nbsp
+	<input type="button" name="" value="fade to 0.3" id="fadeto">
+</body>
+</html>

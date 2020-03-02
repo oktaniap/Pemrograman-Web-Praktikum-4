@@ -1,0 +1,84 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.kuning').dblclick(function(){
+				$('#ganti').addClass('merah');
+			});
+			$('.kuning1').dblclick(function(){
+				$('#ganti1').addClass('merah1');
+			});
+			$('.kuning2').dblclick(function(){
+				$('#ganti2').addClass('merah2');
+			});
+			$('.kuning3').dblclick(function(){
+				$('#ganti3').addClass('merah3');
+			});
+		});
+	</script>
+	<style type="text/css">
+	.kuning{
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+		display: inline-block;
+		margin: 10px;
+	}
+	.kuning1{
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+		display: inline-block;
+		margin: 10px;
+	}
+	.kuning2{
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+		display: inline-block;
+		margin: 10px;
+	}
+	.kuning3{
+		width: 100px;
+		height: 100px;
+		background-color: yellow;
+		display: inline-block;
+		margin: 10px;
+	}
+	.merah{
+		width: 100px;
+		height: 100px;
+		background-color: red
+	}
+	.merah1{
+		width: 100px;
+		height: 100px;
+		background-color: red
+	}
+	.merah2{
+		width: 100px;
+		height: 100px;
+		background-color: red
+	}
+	.merah3{
+		width: 100px;
+		height: 100px;
+		background-color: red
+	}
+	</style>
+</head>
+<body>
+	klik 2x pada setiap kotak untuk mengubah warnanya
+	<br><br>
+	<div class="kuning" id="ganti"></div>
+	&nbsp &nbsp
+	<div class="kuning1" id="ganti1"></div>
+	&nbsp &nbsp
+	<div class="kuning2" id="ganti2"></div>
+	&nbsp &nbsp
+	<div class="kuning3" id="ganti3"></div>
+	&nbsp &nbsp
+
+</body>
+</html>

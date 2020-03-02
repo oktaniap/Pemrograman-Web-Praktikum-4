@@ -1,0 +1,49 @@
+<html>
+<head>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hilang").click(function(){
+				$("#gambar").hide();
+			});
+			$("#tampil").click(function(){
+				$("#gambar").show();
+			});
+			$("#hilang1").click(function(){
+				$("#gambar1").hide();
+			});
+			$("#tampil1").click(function(){
+				$("#gambar1").show();
+			});
+			$("#hilang2").click(function(){
+				$("#gambar2").hide();
+			});
+			$("#tampil2").click(function(){
+				$("#gambar2").show();
+			});
+		});
+	</script>
+</head>
+<body>
+	GAMBAR 1
+	<br><br>
+	<input type="button" name="" value="Tampilkan" id="tampil">
+	<input type="button" name="" value="Hilangkan" id="hilang">
+	<br><br>
+	GAMBAR 2
+	<br><br>
+	<input type="button" name="" value="Tampilkan" id="tampil1">
+	<input type="button" name="" value="Hilangkan" id="hilang1">
+	<br><br>
+	GAMBAR 3
+	<br><br>
+	<input type="button" name="" value="Tampilkan" id="tampil2">
+	<input type="button" name="" value="Hilangkan" id="hilang2">
+	<br><br>
+	<img src="1.jpg" id="gambar">
+	<br><br>
+	<img src="2.jpg" id="gambar1">
+	<br><br>
+	<img src="3.jpg" id="gambar2">
+</body>
+</html>
